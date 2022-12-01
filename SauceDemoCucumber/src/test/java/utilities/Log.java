@@ -32,7 +32,7 @@ public class Log {
 
     public static void info(String message) {
 
-        Log.info("!!!!!"+message+"!!!!");
+        Log.info("====> "+message+" <===");
 
     }
 
