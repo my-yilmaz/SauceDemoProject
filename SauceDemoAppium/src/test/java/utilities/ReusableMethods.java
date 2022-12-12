@@ -12,7 +12,6 @@ import java.util.List;
 
 
 public class ReusableMethods {
-
     public static void tapOnElementWithText(String text) {
         List<MobileElement> mobileElementList = Driver.getAppiumDriver().findElements(By.className("android.widget.TextView"));
         for (MobileElement page : mobileElementList) {
@@ -33,7 +32,6 @@ public class ReusableMethods {
             mobileElementList.get(0).click();
         } else scrollWithUiScrollable(elementText);
     }
-
 
     public static boolean isElementPresent(String text) {
         boolean elementFound = false;

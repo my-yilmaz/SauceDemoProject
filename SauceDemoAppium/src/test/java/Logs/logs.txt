@@ -1,32 +1,22 @@
-2022-12-01 21:36:11 INFO  Log:14 - ---------------------------------------------------------------------------------------
-2022-12-01 21:36:11 INFO  Log:15 - ***********************        US001 Product Page Test START    **************************
-2022-12-01 21:36:11 INFO  Log:16 - ---------------------------------------------------------------------------------------
-2022-12-01 21:36:16 INFO  Log:35 - ====> SauceDemo homepage <===
-2022-12-01 21:36:16 INFO  Log:35 - ====> Verified the Logo, title, url on the login page <===
-2022-12-01 21:36:16 INFO  Log:35 - ====> Verified the username and password box are enabled <===
-2022-12-01 21:36:16 INFO  Log:35 - ====> Verified the login button on the login page <===
-2022-12-01 21:36:16 INFO  Log:35 - ====> Verified the standard login and password credentials on the login page <===
-2022-12-01 21:36:19 INFO  Log:35 - ====> The page has been successfully logged in <===
-2022-12-01 21:36:20 INFO  Log:35 - ====> Verified the Landing page logo and URL <===
-2022-12-01 21:36:20 INFO  Log:35 - ====> Verified the PRODUCTS title <===
-2022-12-01 21:36:20 INFO  Log:35 - ====> Verified the peek image visible <===
-2022-12-01 21:36:23 INFO  Log:35 - ====> The page has been successfully logged in <===
-2022-12-01 21:36:23 INFO  Log:35 - ====> User clicked Burger menu <===
-2022-12-01 21:36:25 INFO  Log:35 - ====> Verified that all items in Burger menu are visible <===
-2022-12-01 21:36:29 INFO  Log:35 - ====> Confirmed the saucelabs page is go when clicking of the about <===
-2022-12-01 21:36:29 INFO  Log:35 - ====> User closed Burger menu <===
-2022-12-01 21:36:30 INFO  Log:35 - ====> The page has been successfully logged in <===
-2022-12-01 21:36:30 INFO  Log:35 - ====> Verified the shopping cart icon are visible <===
-2022-12-01 21:36:30 INFO  Log:35 - ====> Verified the the product sort container is visible <===
-2022-12-01 21:36:30 INFO  Log:35 - ====> Verified the items in product sort bar are visible <===
-2022-12-01 21:36:31 INFO  Log:35 - ====> User selected the Product sort container as Price low to high <===
-2022-12-01 21:36:31 INFO  Log:35 - ====> Verified that the price of products is from low to high <===
-2022-12-01 21:36:34 INFO  Log:35 - ====> The page has been successfully logged in <===
-2022-12-02 18:30:04 INFO  Log:14 - ---------------------------------------------------------------------------------------
-2022-12-02 18:30:04 INFO  Log:15 - ***********************        US001 Product Page Test START    **************************
-2022-12-02 18:30:04 INFO  Log:16 - ---------------------------------------------------------------------------------------
-2022-12-02 18:30:10 INFO  Log:35 - ====> SauceDemo homepage <===
-2022-12-02 18:30:10 INFO  Log:35 - ====> Verified the Logo, title, url on the login page <===
-2022-12-02 18:30:11 INFO  Log:35 - ====> Verified the username and password box are enabled <===
-2022-12-02 18:30:11 INFO  Log:35 - ====> Verified the login button on the login page <===
-2022-12-02 18:30:11 INFO  Log:35 - ====> Verified the standard login and password credentials on the login page <===
+2022-12-12 20:58:24 INFO  Log:35 - ====> Installed the application <===
+2022-12-12 20:58:24 INFO  Log:14 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:24 INFO  Log:15 - ***********************        US001 TC01 Product Page Test START    **************************
+2022-12-12 20:58:24 INFO  Log:16 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:26 INFO  Log:35 - ====> Verified the Logo on the login page <===
+2022-12-12 20:58:26 INFO  Log:35 - ====> Verified the username and password box are enabled <===
+2022-12-12 20:58:26 INFO  Log:35 - ====> Verified the login button on the login page <===
+2022-12-12 20:58:38 INFO  Log:35 - ====> Verified the login and password credentials on the login page <===
+2022-12-12 20:58:38 INFO  Log:24 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:38 INFO  Log:25 - **************************        US001 TC01 Product Page Test END    **************************
+2022-12-12 20:58:38 INFO  Log:26 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:53 INFO  Log:35 - ====> Installed the application <===
+2022-12-12 20:58:53 INFO  Log:14 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:53 INFO  Log:15 - ***********************        US001 TC02 Items on the products page Test START    **************************
+2022-12-12 20:58:53 INFO  Log:16 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:55 INFO  Log:35 - ====> logged in as standart_user <===
+2022-12-12 20:58:59 INFO  Log:35 - ====> Verified the Landing page logo <===
+2022-12-12 20:58:59 INFO  Log:35 - ====> Verified the PRODUCTS title <===
+2022-12-12 20:58:59 INFO  Log:35 - ====> Verified the the Product listing button is enabled <===
+2022-12-12 20:58:59 INFO  Log:24 - ---------------------------------------------------------------------------------------
+2022-12-12 20:58:59 INFO  Log:25 - **************************        US001 TC02 Items on the products page Test END    **************************
+2022-12-12 20:58:59 INFO  Log:26 - ---------------------------------------------------------------------------------------
