@@ -48,3 +48,49 @@ When("User is Login as a standard user", () => {
   Then("User validations the peek image visible", () => {
     productsPage.getPeek().should("be.visible");
   });
+
+  Then("User clicks Burger menu", () => {
+   productsPage.getBurgerMenu().click()
+  });
+
+  Then("User verify that all items in Burger menu are visible", () => {
+   productsPage.getAbout().should("be.visible")
+   productsPage.getLogout().should("be.visible")
+   productsPage.getResetApp().should("be.visible")
+  });
+
+  Then("Confirms user goes to saucelabs page when clicking About", () => {
+    productsPage.getAbout().click()
+    cy.url().should('include','saucelabs.com')
+  });
+
+  Then("User comes back to SauceDemo page and verify of page", () => {
+    cy.go("back");
+    productsPage.getProductsLogo().should("be.visible");
+  });
+  Then("User verify the shopping cart icon are visible", () => {
+    productsPage.getShoppinCartIcon().should('be.visible')
+  });
+  Then("User verify the the product sort container is visible", () => {
+    productsPage.getProductSortContainer().should('be.visible')
+  });
+  Then("User verify the items in product sort bar are visible", () => {
+    productsPage.getProductSortContainer().select('Name (A to Z)')
+    productsPage.getProductSortContainer().should('have.value','az')
+    productsPage.getProductSortContainer().select('Name (Z to A)')
+    productsPage.getProductSortContainer().should('have.value','za')
+    productsPage.getProductSortContainer().select('Price (low to high)')
+    productsPage.getProductSortContainer().should('have.value','lohi')
+    productsPage.getProductSortContainer().select('Price (high to low)')
+    productsPage.getProductSortContainer().should('have.value','hilo')
+  });
+
+  Then("User selects the Product sort container as Price low to high", () => {
+    productsPage.getProductSortContainer().select('Price (low to high)')
+  });
+
+  Then("User verify that the price of products is from low to high", () => {
+    productsPage.getInventoryItemPrice().invoke()
+  
+  });
+  // Then("", () => {});
