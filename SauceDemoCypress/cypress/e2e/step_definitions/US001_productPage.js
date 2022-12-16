@@ -90,7 +90,23 @@ When("User is Login as a standard user", () => {
   });
 
   Then("User verify that the price of products is from low to high", () => {
-    productsPage.getInventoryItemPrice().invoke()
-  
+  const price= []
+  cy.document().then((doc) => {
+    const itemsCount = doc.querySelectorAll('*[class="inventory_item_price"]').length
+    for(var i=0; i<itemsCount; i++) {
+      price.push(doc.querySelectorAll('*[class="inventory_item_price"]')[i].innerText);
+    };
   });
+  const newPrices=[]
+
+  cy.document().then(()=>{
+    for (let i = 0; i < array.length; i++) {
+      const element = price[i]
+      newPrices.push(element)
+  }
+})
+  
+  console.log(price);
+  console.log(newPrices)
+});
   // Then("", () => {});
