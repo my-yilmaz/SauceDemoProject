@@ -8,8 +8,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
-    "stepDefinitions": "cypress/e2e/**/*.{js,jsx,ts,tsx}"},
-    
+    "stepDefinitions": "cypress/e2e/**/*.{js,jsx,ts,tsx}"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,8 +18,7 @@
   },
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "cypress": "^12.1.0",
+    "cypress": "^12.5.1",
     "esbuild": "^0.16.6"
   }
-  
 }

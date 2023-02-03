@@ -1,2 +1,4 @@
-package stepDefinitions;public class US002 {
+package stepDefinitions;
+
+public class US002 {
 }
