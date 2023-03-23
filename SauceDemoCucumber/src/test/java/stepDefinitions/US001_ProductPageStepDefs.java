@@ -66,10 +66,10 @@ public class US001_ProductPageStepDefs {
 
     }
 
-    @Then("User validations the PRODUCTS title")
+    @Then("User validations the Products title")
     public void userValidationsThePRODUCTSTitle() {
-        assertEquals("PRODUCTS", allPages.productsPage().productsTitle.getText());
-        Log.info("Verified the PRODUCTS title");
+        assertEquals("Products", allPages.productsPage().productsTitle.getText());
+        Log.info("Verified the Products title");
     }
 
     @Then("User validations the peek image visible")
